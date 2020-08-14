@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    background-color:lightblue;
+}
+h1{
+    align-content:center;
+}
+
+p.hi{
+    font-family: 'Times New Roman'
+}
+p{
+    background-color:brown;
+    color: magenta;
+    font-size: 50px;
+}
+
+.dy{
+display:grid;
+height:100px;
+grid-template-columns:20% 20% 20% 20% 20%;
+grid-template-rows:33% 34% 33%;
+grid-template-areas:'blue blue blue blue blue'
+                    'red black black green green'
+                    'red black black green green';
+}                   
+
+.blue{
+    grid-area:blue;
+    background-color:blue;
+}
+.red{
+    grid-area:red;
+    background-color:red;
+}
+.black{
+    grid-area:black;
+    background-color:black;
+}
+.green{
+    background-color:green;
+    grid-area:green;
+}
+
+p.Weeb{
+    color:white;
+    background-color:darkblue;
+}
