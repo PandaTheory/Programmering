@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" type="text/css" href="javascript2.css">
+</head>
+<body>
+    <h1>Javascript</h1>
+    <p ondblclick="doubletap()">Double click here to reveal a secret</p>
+        <p id="taptap"></p>
+
+    <div oncontextmenu="rightclickthis()" contextmenu="mymenu">
+        <p>Right Click This</p>
+    </div>
+
+    <p>Please don't type into the field underneath</p>
+    <input type="text" onkeydown="field()">
+
+    <script>
+        console.log("Uhmm You're not supposed to see this");
+        function doubletap() {
+            document.getElementById("taptap").innerHTML = "The cat is hiding under the couch";
+        }
+        function rightclickthis() {
+        alert("Please don't do that again");
+        }
+
+        function field() {
+            alert("What did I just tell you!!");
+        }
+
+    </script>
+
+</body>
+</html> 
