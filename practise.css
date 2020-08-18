@@ -1,0 +1,27 @@
+pre {
+    color: purple;
+    font-size: 150%;
+}
+
+h1 {
+    text-align:center;
+    color: white;
+}
+
+ins {
+    color: blue
+}
+
+a:link {
+    font-size: 200%;
+    background-color: chartreuse;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: greenyellow;
+
+}

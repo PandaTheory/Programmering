@@ -9,14 +9,24 @@
 <body>
     <h1>Quiz</h1>
     <h2>Når ble Sandefjord grunnlagt?</h2>
+        <p id="blank"></p>
 
-    <p id="a1" style="display: none;">WRONG!</p>
-    <p id="a2" style="display: none;">CORRECT!</p>
-    <p id="a3" style="display: none;">WRONG!</p>
-
-    <button type="button" onclick="document.getElementById('a1').style.display = 'block'">1704</button>
-    <button type="button" onclick="document.getElementById('a2').style.display = 'block'">1838</button>
-    <button type="button" onclick="document.getElementById('a3').style.display = 'block'">1872</button>
+    <div>
+        <button onclick="s1()">1702</button>
+        <button onclick="s2()">1838</button>
+        <button onclick="s3()">1927</button>
+    </div>
+        <script>
+            function s1() {
+                document.getElementById('blank').innerHTML = "WRONG" 
+            }
+            function s2() {
+                document.getElementById('blank').innerHTML = "CORRECT!"
+            }
+            function s3() {
+                document.getElementById('blank').innerHTML = "WRONG!"
+            }
+        </script>
 
 </body>
 </html>

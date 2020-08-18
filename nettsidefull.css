@@ -1,5 +1,8 @@
 body {
     text-align: center;
+    background-image: url(question.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -13,4 +16,14 @@ h2 {
 button {
     color:white;
     background-color: rgb(58, 129, 236);
+    width: 80px;
+    height: 40px;
+    font-size: 150%;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#blank {
+    font-weight: bold;
+    font-size: 150%;
 }
