@@ -1,0 +1,9 @@
+#white {
+    td:hover span {display:none}
+    td:hover:before {content:"X"}
+}
+
+#bord {
+    padding: 10px;
+    font-size: 30px;
+}

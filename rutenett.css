@@ -1,0 +1,11 @@
+.rutenett td {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border: red;
+}
+
+.blå {
+    background-color: rgb(52, 164, 255);
+}

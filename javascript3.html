@@ -4,15 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oppgave 3</title>
+    <link rel="stylesheet" type="text/css" href="javascript3.css">
 </head>
 <body>
-    <p>Her tester vi THIS taggen</p>
-    <h2 onclick="doSomething(this)">AAAAAAAAAAAA</h2>
-    <h2 onclick="doSomething(this)">BBBBBBBBBBBB</h2>
 
+    <table id="bord" border=10 cellpacing=0>
+        <tr>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+        </tr>
+        <tr>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+        </tr>
+        <tr>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+        </tr>
+        <tr>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+        </tr>
+        <tr>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+        </tr>
+        <tr>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+            <td id="white" onmouseover="xthis(this)" onmouseout="xout(this)">O</td>
+        </tr>
+    </table>
     <script>
-        function doSomething(eksempel) {
-            eksempel.innerHTML = "CCCCCCCCCCCC"
+        function xthis(inn) {
+            inn.innerHTML = 'X';
+        }
+        function xout(out) {
+            out.innerHTML = 'O';
         }
     </script>
 </body>
